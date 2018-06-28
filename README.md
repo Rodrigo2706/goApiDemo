@@ -31,7 +31,7 @@ Change accordingly and in any MySQL manager run the database_schema.sql file.
 
 ## Running the project
 ```
-cd main
+cd src/main
 go run main.go
 ```
 
