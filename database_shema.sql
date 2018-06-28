@@ -1,9 +1,9 @@
 
-DROP DATABASE IF EXISTS GoApiTuturial;
+DROP DATABASE IF EXISTS GoApiTutorial;
 
-CREATE DATABASE GoApiTuturial;
+CREATE DATABASE GoApiTutorial;
 
-USE GoApiTuturial;
+USE GoApiTutorial;
 
 CREATE TABLE TUT_Users (
     UserId SERIAL PRIMARY KEY,
