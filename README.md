@@ -14,8 +14,8 @@ cd \Trainings
 git clone https://github.com/Rodrigo2706/goApiDemo.git
 cd GoApiDemo
 
-set GOPATH=d:\Trainings
-set GOBIN=d:\Trainings\bin
+set GOPATH=d:\Trainings\goApiDemo
+set GOBIN=d:\Trainings\goApiDemo\bin
 
 go get github.com/go-sql-driver/mysql
 go get github.com/go-ozzo/ozzo-validation
@@ -31,7 +31,7 @@ Change accordingly and in any MySQL manager run the database_schema.sql file.
 
 ## Running the project
 ```
-cd main
+cd src/main
 go run main.go
 ```
 
